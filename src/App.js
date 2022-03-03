@@ -7,7 +7,7 @@ function App() {
     const [tasks, setTask] = useState([
         {text: 'learn react', id: 1, complete: false},
         {text: 'learn js', id: 2, complete: false},
-        {text: 'learn next.js', id: 3, complete: false},
+        {text: 'learn html', id: 3, complete: false},
     ]);
 
     const [filtered, setFiltered] = useState(tasks)
